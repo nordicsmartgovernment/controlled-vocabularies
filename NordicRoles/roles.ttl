@@ -1,16 +1,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix nsgrole: <https://nordicsmartgovernment.github.io/controlled-vocabularies/NordicRoles/concepts.ttl#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-
 nsgrole:NordicRoles a skos:ConceptScheme ;
     dct:title "Nordic Role Vocabulary"@en ;
     dct:description "Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland."@en ;
     skos:prefLabel "Nordic Roles (Test Version)"@en ;
-    skos:note "This is a test version and may change."@en .
-
-skos:hasTopConcept 
+    skos:note "This is a test version and may change."@en ;
+    skos:hasTopConcept 
         nsgrole:MemberOfTheBoard,
         nsgrole:ChairmanOfTheBoard,
         nsgrole:DeputyMemberOfTheBoard,
@@ -33,7 +30,7 @@ skos:hasTopConcept
         nsgrole:Auditor,
         nsgrole:DeputyAuditor,
         nsgrole:Accountant,
-        nsgrole:Actuary
+        nsgrole:Actuary .
 
 
 ##########################
@@ -62,7 +59,7 @@ nsgrole:ExternalSignatory a skos:Concept ;
     skos:prefLabel "External Signatory"@en .
 
 nsgrole:SoleTrader a skos:Concept ;
-    skos:prefLabel "Owner / Sole trader"@en .
+    skos:prefLabel "Sole trader"@en .
 
 nsgrole:ProcurationHolder a skos:Concept ;
     skos:prefLabel "Procuration holder"@en .
@@ -117,44 +114,44 @@ nsgrole:Actuary a skos:Concept ;
 #################################################################
 
 nsgrole:SE_LE a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "SE_LE" ;
     skos:prefLabel "Styrelseledamot"@sv .
 
 nsgrole:SE_VLE a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "SE_VLE" ;
     skos:prefLabel "Verkställande ledamot"@sv .
 
 nsgrole:SE_ARB a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "SE_ARB" ;
     skos:prefLabel "Arbetstagarrepresentant"@sv ;
     skos:definition "Is in the board with the same rights as other board members."@en .
 
 nsgrole:SE_FTR a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "SE_FTR" ;
     skos:prefLabel "Försäkringstagarrepresentant"@sv ;
     skos:definition "Is in the board with the same rights as other board members."@en .
 
 nsgrole:FI_J a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "FI_J" ;
     skos:prefLabel "Hallituksen jäsen"@fi .
 
 nsgrole:NO_MEDL a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "NO_MEDL" ;
     skos:prefLabel "Styremedlem"@no .
 
 nsgrole:IS_12 a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "IS_12" ;
     skos:prefLabel "Stjórnarmaður"@is .
 
 nsgrole:IS_13 a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
+    skos:broader nsgrole:MemberOfTheBoard ;
     skos:notation "IS_13" ;
     skos:prefLabel "Meðstjórnandi"@is .
 
@@ -163,34 +160,34 @@ nsgrole:IS_13 a skos:Concept ;
 #################################################################
 
 nsgrole:SE_OF a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "SE_OF" ;
     skos:prefLabel "Styrelseordförande"@sv ;
     skos:definition "This person is always registered in Sweden as LE, OF and signatory rights always connected to LE."@en .
 
 nsgrole:SE_VOF a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "SE_VOF" ;
     skos:prefLabel "Vice styrelseordförande"@sv ;
     skos:definition "Deputy Chairman of the board."@en .
 
 nsgrole:FI_PJ a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "FI_PJ" ;
     skos:prefLabel "Hallituksen puheenjohtaja"@fi .
 
 nsgrole:NO_LEDE a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "NO_LEDE" ;
     skos:prefLabel "Styrets leder"@no .
 
 nsgrole:IS_11 a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "IS_11" ;
     skos:prefLabel "Stjórnarformaður"@is .
 
 nsgrole:NO_NEST a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "NO_NEST" ;
     skos:prefLabel "Nestleder"@no .
 
@@ -199,22 +196,22 @@ nsgrole:NO_NEST a skos:Concept ;
 #################################################################
 
 nsgrole:SE_SU a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
+    skos:broader nsgrole:DeputyMemberOfTheBoard ;
     skos:notation "SE_SU" ;
     skos:prefLabel "Styrelsesuppleant"@sv .
 
 nsgrole:FI_VJ a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
+    skos:broader nsgrole:DeputyMemberOfTheBoard ;
     skos:notation "FI_VJ" ;
     skos:prefLabel "Hallituksen varajäsen"@fi .
 
 nsgrole:NO_VARA a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
+    skos:broader nsgrole:DeputyMemberOfTheBoard ;
     skos:notation "NO_VARA" ;
     skos:prefLabel "Varamedlem"@no .
 
 nsgrole:IS_14 a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
+    skos:broader nsgrole:DeputyMemberOfTheBoard ;
     skos:notation "IS_14" ;
     skos:prefLabel "Varamaður"@is .
 
@@ -300,618 +297,26 @@ nsgrole:NO_SIGN a skos:Concept ;
     skos:prefLabel "Signaturberettiget"@no .
 
 #################################################################
-# Owner / sole trader
+# OSole trader
 #################################################################
 
 nsgrole:SE_IN a skos:Concept ;
-    skos:broader nsgrole:Owner ;
+    skos:broader nsgrole:SoleTrader ;
     skos:notation "SE_IN" ;
     skos:prefLabel "Enskild näringsidkare"@sv .
 
 nsgrole:FI_YEH a skos:Concept ;
-    skos:broader nsgrole:Owner ;
+    skos:broader nsgrole:SoleTrader ;
     skos:notation "FI_YEH" ;
     skos:prefLabel "Yksityinen elinkeinonharjoittaja"@fi .
 
 nsgrole:NO_INNH a skos:Concept ;
-    skos:broader nsgrole:Owner ;
+    skos:broader nsgrole:SoleTrader ;
     skos:notation "NO_INNH" ;
     skos:prefLabel "Innehaver"@no .
 
 nsgrole:IS_3 a skos:Concept ;
-    skos:broader nsgrole:Owner ;
-    skos:notation "IS_3" ;
-    skos:prefLabel "Eigandi"@is .
-
-#################################################################
-# Procuration holder
-#################################################################
-
-nsgrole:SE_PO a skos:Concept ;
-    skos:broader nsgrole:ProcurationHolder ;
-    skos:notation "SE_PO" ;
-    skos:prefLabel "Prokurist"@sv ;
-    skos:definition "In Sweden only for Trading partnership (Handelsbolag)."@en .
-
-nsgrole:FI_PR a skos:Concept ;
-    skos:broader nsgrole:ProcurationHolder ;
-    skos:notation "FI_PR" ;
-    skos:prefLabel "Prokuristi"@fi .
-
-nsgrole:IS_5 a skos:Concept ;
-    skos:broader nsgrole:ProcurationHolder ;
-    skos:notation "IS_5" ;
-    skos:prefLabel "Prókúruhafi"@is .
-
-nsgrole:NO_PROK a skos:Concept ;
-    skos:broader nsgrole:ProcurationHolder ;
-    skos:notation "NO_PROK" ;
-    skos:prefLabel "Prokurist"@no .
-
-#################################################################
-# Partner
-#################################################################
-
-nsgrole:SE_BO a skos:Concept ;
-    skos:broader nsgrole:Partner ;
-    skos:notation "SE_BO" ;
-    skos:prefLabel "Bolagsman"@sv ;
-    skos:definition "Used only for Handelsbolag and Kommanditbolag."@en .
-
-nsgrole:FI_YHM a skos:Concept ;
-    skos:broader nsgrole:Partner ;
-    skos:notation "FI_YHM" ;
-    skos:prefLabel "Yhtiömies"@fi .
-
-nsgrole:NO_DTSO a skos:Concept ;
-    skos:broader nsgrole:Partner ;
-    skos:notation "NO_DTSO" ;
-    skos:prefLabel "Deltaker med solidarisk ansvar"@no ;
-    skos:definition "Unlimited liability in Ansvarlig selskap / partsrederi."@en .
-
-nsgrole:NO_DTPR a skos:Concept ;
-    skos:broader nsgrole:Partner ;
-    skos:notation "NO_DTPR" ;
-    skos:prefLabel "Deltaker med proratarisk ansvar"@no ;
-    skos:definition "Pro rata liability in selskap med delt ansvar."@en .
-
-#################################################################
-# Limited partner
-#################################################################
-
-nsgrole:SE_KD a skos:Concept ;
-    skos:broader nsgrole:LimitedPartner ;
-    skos:notation "SE_KD" ;
-    skos:prefLabel "Kommanditdelägare"@sv .
-
-nsgrole:FI_YHMA a skos:Concept ;
-    skos:broader nsgrole:LimitedPartner ;
-    skos:notation "FI_YHMÄ" ;
-    skos:prefLabel "Äänetön yhtiömies"@fi .
-
-#################################################################
-# Owner municipality
-#################################################################
-
-nsgrole:NO_EIKM a skos:Concept ;
-    skos:broader nsgrole:OwnerMunicipality ;
-    skos:notation "NO_EIKM" ;
-    skos:prefLabel "Eierkommune"@no .
-
-#################################################################
-# Managing shipowner
-#################################################################
-
-nsgrole:NO_BEST a skos:Concept ;
-    skos:broader nsgrole:ManagingShipowner ;
-    skos:notation "NO_BEST" ;
-    skos:prefLabel "Bestyrende reder"@no .
-
-#################################################################
-# Designated representative
-#################################################################
-
-nsgrole:SE_FO a skos:Concept ;
-    skos:broader nsgrole:DesignatedRepresentative ;
-    skos:notation "SE_FO" ;
-    skos:prefLabel "Föreståndare"@sv ;
-    skos:definition "Required if a non-Swedish citizen runs a sole trader business in Sweden."@en .
-
-nsgrole:NO_REPR a skos:Concept ;
-    skos:broader nsgrole:DesignatedRepresentative ;
-    skos:notation "NO_REPR" ;
-    skos:prefLabel "Norsk representant for utenlandsk enhet"@no ;
-    skos:definition "Required for foreign companies doing business in Norway."@en .
-
-#################################################################
-# General partner
-#################################################################
-
-nsgrole:SE_KP a skos:Concept ;
-    skos:broader nsgrole:GeneralPartner ;
-    skos:notation "SE_KP" ;
-    skos:prefLabel "Komplementär"@sv .
-
-nsgrole:FI_VYHM a skos:Concept ;
-    skos:broader nsgrole:GeneralPartner ;
-    skos:notation "FI_VYHM" ;
-    skos:prefLabel "Vastuunalainen yhtiömies"@fi .
-
-nsgrole:NO_KOMP a skos:Concept ;
-    skos:broader nsgrole:GeneralPartner ;
-    skos:notation "NO_KOMP" ;
-    skos:prefLabel "Komplementar"@no .
-
-#################################################################
-# Liquidator
-#################################################################
-
-nsgrole:SE_LI a skos:Concept ;
-    skos:broader nsgrole:Liquidator ;
-    skos:notation "SE_LI" ;
-    skos:prefLabel "Likvidator"@sv ;
-    skos:definition "Has signatory power when the company is in liquidation."@en .
-
-nsgrole:FI_SEL a skos:Concept ;
-    skos:broader nsgrole:Liquidator ;
-    skos:notation "FI_SEL" ;
-    skos:prefLabel "Selvitysmies"@fi .
-
-nsgrole:NO_BOBE a skos:Concept ;
-    skos:broader nsgrole:Liquidator ;
-    skos:notation "NO_BOBE" ;
-    skos:prefLabel "Bostyrer"@no .
-
-#################################################################
-# Deputy liquidator
-#################################################################
-
-nsgrole:SE_LS a skos:Concept ;
-    skos:broader nsgrole:DeputyLiquidator ;
-    skos:notation "SE_LS" ;
-    skos:prefLabel "Likvidatorssuppleant"@sv .
-
-#################################################################
-# Business manager
-#################################################################
-
-nsgrole:NO_FFOER a skos:Concept ;
-    skos:broader nsgrole:BusinessManager ;
-    skos:notation "NO_FFOER" ;
-    skos:prefLabel "Forretningsfører"@no .
-
-#################################################################
-# Contact person
-#################################################################
-
-nsgrole:NO_KONT a skos:Concept ;
-    skos:broader nsgrole:ContactPerson ;
-    skos:notation "NO_KONT" ;
-    skos:prefLabel "Kontaktperson"@no .
-
-nsgrole:SE_REP a skos:Concept ;
-    skos:broader nsgrole:ContactPerson ;
-    skos:notation "SE_REP" ;
-    skos:prefLabel "Representant"@sv ;
-    skos:definition "Used for religious communities to register a representative."@en .
-
-#################################################################
-# Service of process
-#################################################################
-
-nsgrole:SE_DELG a skos:Concept ;
-    skos:broader nsgrole:ServiceOfProcess ;
-    skos:notation "SE_DELG" ;
-    skos:prefLabel "Delgivningsmottagare"@sv .
-
-#################################################################
-# Auditor
-#################################################################
-
-nsgrole:NO_REVI a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "NO_REVI" ;
-    skos:prefLabel "Revisor"@no .
-
-nsgrole:SE_REV a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "SE_REV" ;
-    skos:prefLabel "Revisor"@sv .
-
-nsgrole:SE_REVH a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "SE_REVH" ;
-    skos:prefLabel "Huvudansvarig revisor"@sv .
-
-nsgrole:SE_REVT a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "SE_REVT" ;
-    skos:prefLabel "Revisor (med tillstånd)"@sv .
-
-nsgrole:SE_REVL a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "SE_REVL" ;
-    skos:prefLabel "Lekmannarevisor"@sv ;
-    skos:definition "Layman auditor; could be under group 'auditor'."@en .
-
-nsgrole:IS_AUD a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:prefLabel "Skoðunarmaður"@is .
-
-nsgrole:FI_T a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "FI_T" ;
-    skos:prefLabel "Tilintarkastaja"@fi .
-
-nsgrole:FI_PTI a skos:Concept ;
-    skos:broader nsgrole:Auditor ;
-    skos:notation "FI_PTI" ;
-    skos:prefLabel "Päävastuullinen tilintarkastaja"@fi .
-
-#################################################################
-# Deputy auditor
-#################################################################
-
-nsgrole:SE_REVS a skos:Concept ;
-    skos:broader nsgrole:DeputyAuditor ;
-    skos:notation "SE_REVS" ;
-    skos:prefLabel "Revisorssuppleant"@sv .
-
-nsgrole:SE_REVSL a skos:Concept ;
-    skos:broader nsgrole:DeputyAuditor ;
-    skos:notation "SE_REVSL" ;
-    skos:prefLabel "Suppleant för lekmannarevisor"@sv .
-
-nsgrole:SE_REVST a skos:Concept ;
-    skos:broader nsgrole:DeputyAuditor ;
-    skos:notation "SE_REVST" ;
-    skos:prefLabel "Revisorssuppleant (med tillstånd)"@sv .
-
-nsgrole:FI_VT a skos:Concept ;
-    skos:broader nsgrole:DeputyAuditor ;
-    skos:notation "FI_VT" ;
-    skos:prefLabel "Varatilintarkastaja"@fi .
-
-#################################################################
-# Accountant
-#################################################################
-
-nsgrole:NO_REGN a skos:Concept ;
-    skos:broader nsgrole:Accountant ;
-    skos:notation "NO_REGN" ;
-    skos:prefLabel "Regnskapsfører"@no .
-
-nsgrole:IS_2 a skos:Concept ;
-    skos:broader nsgrole:Accountant ;
-    skos:notation "IS_2" ;
-    skos:prefLabel "Endurskoðandi"@is .
-
-#################################################################
-# Actuary
-#################################################################
-
-nsgrole:SE_AK a skos:Concept ;
-    skos:broader nsgrole:Actuary ;
-    skos:notation "SE_AK" ;
-    skos:prefLabel "Aktuarie"@sv .
-
-
-nsgrole:NordicRoles a skos:ConceptScheme ;
-    dct:title "Nordic Role Vocabulary"@en ;
-    dct:description "Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland."@en ;
-    skos:prefLabel "Nordic Roles (Test Version)"@en ;
-    skos:note "This is a test version and may change."@en .
-
-skos:hasTopConcept 
-        nsgrole:MemberOfTheBoard,
-        nsgrole:ChairmanOfTheBoard,
-        nsgrole:DeputyMemberOfTheBoard,
-        nsgrole:BoardObserver,
-        nsgrole:ManagingDirector,
-        nsgrole:DeputyManagingDirector,
-        nsgrole:ExternalSignatory,
-        nsgrole:SoleTrader,
-        nsgrole:ProcurationHolder,
-        nsgrole:Partner,
-        nsgrole:LimitedPartner,
-        nsgrole:OwnerMunicipality,
-        nsgrole:ManagingShipowner,
-        nsgrole:DesignatedRepresentative,
-        nsgrole:GeneralPartner,
-        nsgrole:Liquidator,
-        nsgrole:DeputyLiquidator,
-        nsgrole:BusinessManager,
-        nsgrole:ContactPerson,
-        nsgrole:Auditor,
-        nsgrole:DeputyAuditor,
-        nsgrole:Accountant,
-        nsgrole:Actuary
-
-
-##########################
-# Overordnede engelske begreper
-##########################
-
-nsgrole:MemberOfTheBoard a skos:Concept ;
-    skos:prefLabel "Member of the board"@en .
-
-nsgrole:ChairmanOfTheBoard a skos:Concept ;
-    skos:prefLabel "Chairman of the board"@en .
-
-nsgrole:DeputyMemberOfTheBoard a skos:Concept ;
-    skos:prefLabel "Deputy member of the board"@en .
-
-nsgrole:BoardObserver a skos:Concept ;
-    skos:prefLabel "Board observer"@en .
-
-nsgrole:ManagingDirector a skos:Concept ;
-    skos:prefLabel "Managing director"@en .
-
-nsgrole:DeputyManagingDirector a skos:Concept ;
-    skos:prefLabel "Deputy managing director"@en .
-
-nsgrole:ExternalSignatory a skos:Concept ;
-    skos:prefLabel "External Signatory"@en .
-
-nsgrole:SoleTrader a skos:Concept ;
-    skos:prefLabel "Owner / Sole trader"@en .
-
-nsgrole:ProcurationHolder a skos:Concept ;
-    skos:prefLabel "Procuration holder"@en .
-
-nsgrole:Partner a skos:Concept ;
-    skos:prefLabel "Partner"@en .
-
-nsgrole:LimitedPartner a skos:Concept ;
-    skos:prefLabel "Limited partner"@en .
-
-nsgrole:OwnerMunicipality a skos:Concept ;
-    skos:prefLabel "Owner municipality"@en .
-
-nsgrole:ManagingShipowner a skos:Concept ;
-    skos:prefLabel "Managing shipowner"@en .
-
-nsgrole:DesignatedRepresentative a skos:Concept ;
-    skos:prefLabel "Designated Representative"@en .
-
-nsgrole:GeneralPartner a skos:Concept ;
-    skos:prefLabel "General Partner"@en .
-
-nsgrole:Liquidator a skos:Concept ;
-    skos:prefLabel "Liquidator"@en .
-
-nsgrole:DeputyLiquidator a skos:Concept ;
-    skos:prefLabel "Deputy Liquidator"@en .
-
-nsgrole:BusinessManager a skos:Concept ;
-    skos:prefLabel "Business Manager"@en .
-
-nsgrole:ContactPerson a skos:Concept ;
-    skos:prefLabel "Contact person"@en .
-
-nsgrole:PersonAuthorizedToReceiveService a skos:Concept ;
-    skos:prefLabel "Person authorised to receive service of process on behalf of the company"@en .
-
-nsgrole:Auditor a skos:Concept ;
-    skos:prefLabel "Auditor"@en .
-
-nsgrole:DeputyAuditor a skos:Concept ;
-    skos:prefLabel "Deputy Auditor"@en .
-
-nsgrole:Accountant a skos:Concept ;
-    skos:prefLabel "Accountant"@en .
-
-nsgrole:Actuary a skos:Concept ;
-    skos:prefLabel "Actuary"@en .
-
-#################################################################
-# Member of the board — roles
-#################################################################
-
-nsgrole:SE_LE a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "SE_LE" ;
-    skos:prefLabel "Styrelseledamot"@sv .
-
-nsgrole:SE_VLE a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "SE_VLE" ;
-    skos:prefLabel "Verkställande ledamot"@sv .
-
-nsgrole:SE_ARB a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "SE_ARB" ;
-    skos:prefLabel "Arbetstagarrepresentant"@sv ;
-    skos:definition "Is in the board with the same rights as other board members."@en .
-
-nsgrole:SE_FTR a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "SE_FTR" ;
-    skos:prefLabel "Försäkringstagarrepresentant"@sv ;
-    skos:definition "Is in the board with the same rights as other board members."@en .
-
-nsgrole:FI_J a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "FI_J" ;
-    skos:prefLabel "Hallituksen jäsen"@fi .
-
-nsgrole:NO_MEDL a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "NO_MEDL" ;
-    skos:prefLabel "Styremedlem"@no .
-
-nsgrole:IS_12 a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "IS_12" ;
-    skos:prefLabel "Stjórnarmaður"@is .
-
-nsgrole:IS_13 a skos:Concept ;
-    skos:broader nsgrole:MemberOfBoard ;
-    skos:notation "IS_13" ;
-    skos:prefLabel "Meðstjórnandi"@is .
-
-#################################################################
-# Chairman of the board — roles
-#################################################################
-
-nsgrole:SE_OF a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "SE_OF" ;
-    skos:prefLabel "Styrelseordförande"@sv ;
-    skos:definition "This person is always registered in Sweden as LE, OF and signatory rights always connected to LE."@en .
-
-nsgrole:SE_VOF a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "SE_VOF" ;
-    skos:prefLabel "Vice styrelseordförande"@sv ;
-    skos:definition "Deputy Chairman of the board."@en .
-
-nsgrole:FI_PJ a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "FI_PJ" ;
-    skos:prefLabel "Hallituksen puheenjohtaja"@fi .
-
-nsgrole:NO_LEDE a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "NO_LEDE" ;
-    skos:prefLabel "Styrets leder"@no .
-
-nsgrole:IS_11 a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "IS_11" ;
-    skos:prefLabel "Stjórnarformaður"@is .
-
-nsgrole:NO_NEST a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfBoard ;
-    skos:notation "NO_NEST" ;
-    skos:prefLabel "Nestleder"@no .
-
-#################################################################
-# Deputy member of the board — roles
-#################################################################
-
-nsgrole:SE_SU a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
-    skos:notation "SE_SU" ;
-    skos:prefLabel "Styrelsesuppleant"@sv .
-
-nsgrole:FI_VJ a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
-    skos:notation "FI_VJ" ;
-    skos:prefLabel "Hallituksen varajäsen"@fi .
-
-nsgrole:NO_VARA a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
-    skos:notation "NO_VARA" ;
-    skos:prefLabel "Varamedlem"@no .
-
-nsgrole:IS_14 a skos:Concept ;
-    skos:broader nsgrole:DeputyMemberOfBoard ;
-    skos:notation "IS_14" ;
-    skos:prefLabel "Varamaður"@is .
-
-#################################################################
-# Board observer
-#################################################################
-
-nsgrole:NO_OBS a skos:Concept ;
-    skos:broader nsgrole:BoardObserver ;
-    skos:notation "NO_OBS" ;
-    skos:prefLabel "Observatør"@no ;
-    skos:definition "Natural person who participates in a board meeting without voting rights."@en .
-
-#################################################################
-# Managing director
-#################################################################
-
-nsgrole:SE_VD a skos:Concept ;
-    skos:broader nsgrole:ManagingDirector ;
-    skos:notation "SE_VD" ;
-    skos:prefLabel "Verkställande direktör"@sv .
-
-nsgrole:SE_EVD a skos:Concept ;
-    skos:broader nsgrole:ManagingDirector ;
-    skos:notation "SE_EVD" ;
-    skos:prefLabel "(Extern) Verkställande direktör"@sv .
-
-nsgrole:FI_TJ a skos:Concept ;
-    skos:broader nsgrole:ManagingDirector ;
-    skos:notation "FI_TJ" ;
-    skos:prefLabel "Toimitusjohtaja"@fi .
-
-nsgrole:NO_DAGL a skos:Concept ;
-    skos:broader nsgrole:ManagingDirector ;
-    skos:notation "NO_DAGL" ;
-    skos:prefLabel "Daglig leder"@no .
-
-nsgrole:IS_4 a skos:Concept ;
-    skos:broader nsgrole:ManagingDirector ;
-    skos:notation "IS_4" ;
-    skos:prefLabel "Framkvæmdarstjóri"@is .
-
-#################################################################
-# Deputy managing director
-#################################################################
-
-nsgrole:SE_VVD a skos:Concept ;
-    skos:broader nsgrole:DeputyManagingDirector ;
-    skos:notation "SE_VVD" ;
-    skos:prefLabel "Vice verkställande direktör"@sv .
-
-nsgrole:SE_EVVD a skos:Concept ;
-    skos:broader nsgrole:DeputyManagingDirector ;
-    skos:notation "SE_EVVD" ;
-    skos:prefLabel "(Extern) Vice verkställande direktör"@sv .
-
-nsgrole:SE_SVD a skos:Concept ;
-    skos:broader nsgrole:DeputyManagingDirector ;
-    skos:notation "SE_SVD" ;
-    skos:prefLabel "Ställföreträdande verkställande direktör"@sv .
-
-nsgrole:FI_TJS a skos:Concept ;
-    skos:broader nsgrole:DeputyManagingDirector ;
-    skos:notation "FI_TJS" ;
-    skos:prefLabel "Toimitusjohtajan sijainen"@fi .
-
-#################################################################
-# External signatory
-#################################################################
-
-nsgrole:SE_EFT a skos:Concept ;
-    skos:broader nsgrole:ExternalSignatory ;
-    skos:notation "SE_EFT" ;
-    skos:prefLabel "Extern firmatecknare"@sv .
-
-nsgrole:FI_MUU a skos:Concept ;
-    skos:broader nsgrole:ExternalSignatory ;
-    skos:prefLabel "Muu nimetty henkilö"@fi .
-
-nsgrole:NO_SIGN a skos:Concept ;
-    skos:broader nsgrole:ExternalSignatory ;
-    skos:notation "NO_SIGN" ;
-    skos:prefLabel "Signaturberettiget"@no .
-
-#################################################################
-# Owner / sole trader
-#################################################################
-
-nsgrole:SE_IN a skos:Concept ;
-    skos:broader nsgrole:Owner ;
-    skos:notation "SE_IN" ;
-    skos:prefLabel "Enskild näringsidkare"@sv .
-
-nsgrole:FI_YEH a skos:Concept ;
-    skos:broader nsgrole:Owner ;
-    skos:notation "FI_YEH" ;
-    skos:prefLabel "Yksityinen elinkeinonharjoittaja"@fi .
-
-nsgrole:NO_INNH a skos:Concept ;
-    skos:broader nsgrole:Owner ;
-    skos:notation "NO_INNH" ;
-    skos:prefLabel "Innehaver"@no .
-
-nsgrole:IS_3 a skos:Concept ;
-    skos:broader nsgrole:Owner ;
+    skos:broader nsgrole:SoleTrader ;
     skos:notation "IS_3" ;
     skos:prefLabel "Eigandi"@is .
 
