@@ -1,267 +1,200 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ex: <http://example.org/vocab#> .
+# Nordic Role Vocabulary (Test Version)
 
-ex:NordicRoles a skos:ConceptScheme ;
-    dct:title "Nordic Role Vocabulary"@en ;
-    dct:description "Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland."@en ;
-    skos:prefLabel "Nordic Roles (Test Version)"@en ;
-    skos:note "This is a test version and may change."@en .
+**Tittel:** Nordic Role Vocabulary  
+**Beskrivelse:** Testversjon av det nordiske rolle-vokabularet, basert på styre- og selskapsrelaterte roller i Sverige, Norge, Finland og Island.  
+**Merk:** Dette er en testversjon og kan endres.
 
-skos:hasTopConcept 
-        ex:MemberOfTheBoard,
-        ex:ChairmanOfTheBoard,
-        ex:DeputyMemberOfTheBoard,
-        ex:BoardObserver,
-        ex:ManagingDirector,
-        ex:DeputyManagingDirector,
-        ex:ExternalSignatory,
-        ex:SoleTrader,
-        ex:ProcurationHolder,
-        ex:Partner,
-        ex:LimitedPartner,
-        ex:OwnerMunicipality,
-        ex:ManagingShipowner,
-        ex:DesignatedRepresentative,
-        ex:GeneralPartner,
-        ex:Liquidator,
-        ex:DeputyLiquidator,
-        ex:BusinessManager,
-        ex:ContactPerson,
-        ex:Auditor,
-        ex:DeputyAuditor,
-        ex:Accountant,
-        ex:Actuary
+---
 
-
-##########################
 # Overordnede engelske begreper
-##########################
 
-ex:MemberOfTheBoard a skos:Concept ;
-    skos:prefLabel "Member of the board"@en .
+## MemberOfTheBoard
+- Member of the board
 
-ex:ChairmanOfTheBoard a skos:Concept ;
-    skos:prefLabel "Chairman of the board"@en .
+### SE_LE
+- Styrelseledamot (svensk)
 
-ex:DeputyMemberOfTheBoard a skos:Concept ;
-    skos:prefLabel "Deputy member of the board"@en .
+### SE_VLE
+- Verkställande ledamot (svensk)
 
-ex:BoardObserver a skos:Concept ;
-    skos:prefLabel "Board observer"@en .
+### SE_ARB
+- Arbetstagarrepresentant (svensk)  
+  *Har samme rettigheter som andre styremedlemmer*
 
-ex:ManagingDirector a skos:Concept ;
-    skos:prefLabel "Managing director"@en .
+### SE_FTR
+- Försäkringstagarrepresentant (svensk)  
+  *Har samme rettigheter som andre styremedlemmer*
 
-ex:DeputyManagingDirector a skos:Concept ;
-    skos:prefLabel "Deputy managing director"@en .
+### FI_J
+- Hallituksen jäsen (finsk)
 
-ex:ExternalSignatory a skos:Concept ;
-    skos:prefLabel "External Signatory"@en .
+### NO_MEDL
+- Styremedlem (norsk)
 
-ex:SoleTrader a skos:Concept ;
-    skos:prefLabel "Owner / Sole trader"@en .
+### IS_12
+- Stjórnarmaður (islandsk)
 
-ex:ProcurationHolder a skos:Concept ;
-    skos:prefLabel "Procuration holder"@en .
+### IS_13
+- Meðstjórnandi (islandsk)
 
-ex:Partner a skos:Concept ;
-    skos:prefLabel "Partner"@en .
+---
 
-ex:LimitedPartner a skos:Concept ;
-    skos:prefLabel "Limited partner"@en .
+## ChairmanOfTheBoard
+- Chairman of the board
 
-ex:OwnerMunicipality a skos:Concept ;
-    skos:prefLabel "Owner municipality"@en .
+### SE_OF
+- Styrelseordförande (svensk)  
+  *Alltid registrert som LE, OF og med signaturrettigheter*
 
-ex:ManagingShipowner a skos:Concept ;
-    skos:prefLabel "Managing shipowner"@en .
+### SE_VOF
+- Vice styrelseordförande (svensk)  
+  *Kan tolkes som Deputy Chairman*
 
-ex:DesignatedRepresentative a skos:Concept ;
-    skos:prefLabel "Designated Representative"@en .
+### FI_PJ
+- Hallituksen puheenjohtaja (finsk)
 
-ex:GeneralPartner a skos:Concept ;
-    skos:prefLabel "General Partner"@en .
+### NO_LEDE
+- Styrets leder (norsk)
 
-ex:Liquidator a skos:Concept ;
-    skos:prefLabel "Liquidator"@en .
+### NO_NEST
+- Nestleder (norsk)
 
-ex:DeputyLiquidator a skos:Concept ;
-    skos:prefLabel "Deputy Liquidator"@en .
+### IS_11
+- Stjórnarformaður (islandsk)
 
-ex:BusinessManager a skos:Concept ;
-    skos:prefLabel "Business Manager"@en .
+---
 
-ex:ContactPerson a skos:Concept ;
-    skos:prefLabel "Contact person"@en .
+## DeputyMemberOfTheBoard
+- Deputy member of the board
 
-ex:PersonAuthorizedToReceiveService a skos:Concept ;
-    skos:prefLabel "Person authorised to receive service of process on behalf of the company"@en .
+### SE_SU
+- Styrelsesuppleant (svensk)
 
-ex:Auditor a skos:Concept ;
-    skos:prefLabel "Auditor"@en .
+### FI_VJ
+- Hallituksen varajäsen (finsk)
 
-ex:DeputyAuditor a skos:Concept ;
-    skos:prefLabel "Deputy Auditor"@en .
+### NO_VARA
+- Varamedlem (norsk)
 
-ex:Accountant a skos:Concept ;
-    skos:prefLabel "Accountant"@en .
+### IS_14
+- Varamaður (islandsk)
 
-ex:Actuary a skos:Concept ;
-    skos:prefLabel "Actuary"@en .
+---
 
-##########################
-# Nordiske begreper med kobling til overordnet
-##########################
+## BoardObserver
+- Board observer
 
-# Member of the board
-ex:SE_LE a skos:Concept ;
-    skos:prefLabel "Styrelseledamot"@sv ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "SE_LE" .
+### NO_OBS
+- Observatør (norsk)  
+  *Deltar i styremøter uten stemmerett*
 
-ex:SE_VLE a skos:Concept ;
-    skos:prefLabel "Verkställande ledamot"@sv ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "SE_VLE" .
+---
 
-ex:SE_ARB a skos:Concept ;
-    skos:prefLabel "Arbetstagarrepresentant"@sv ;
-    skos:definition "Is in the board with the same rights as other board members."@en ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "SE_ARB" .
+## ManagingDirector
+- Managing director
 
-ex:SE_FTR a skos:Concept ;
-    skos:prefLabel "Försäkringstagarrepresentant"@sv ;
-    skos:definition "Is in the board with the same rights as other board members."@en ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "SE_FTR" .
+### SE_VD
+- Verkställande direktör (svensk)
 
-ex:FI_J a skos:Concept ;
-    skos:prefLabel "Hallituksen jäsen"@fi ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "FI_J" .
+### SE_EVD
+- (Extern) Verkställande direktör (svensk)
 
-ex:NO_MEDL a skos:Concept ;
-    skos:prefLabel "Styremedlem"@no ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "NO_MEDL" .
+### FI_TJ
+- Toimitusjohtaja (finsk)
 
-ex:IS_12 a skos:Concept ;
-    skos:prefLabel "Stjórnarmaður"@is ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "IS_12" .
+### NO_DAGL
+- Daglig leder (norsk)
 
-ex:IS_13 a skos:Concept ;
-    skos:prefLabel "Meðstjórnandi"@is ;
-    skos:broader ex:MemberOfTheBoard ;
-    skos:notation "IS_13" .
+### IS_4
+- Framkvæmdarstjóri (islandsk)
 
-# Chairman of the board
-ex:SE_OF a skos:Concept ;
-    skos:prefLabel "Styrelseordförande"@sv ;
-    skos:definition "This person is always registered in Sweden as LE, OF and signatory rights always connected to LE."@en ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "SE_OF" .
+---
 
-ex:SE_VOF a skos:Concept ;
-    skos:prefLabel "Vice styrelseordförande"@sv ;
-    skos:definition "Actually Deputy Chairman of the board but can be under this group?"@en ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "SE_VOF" .
+## DeputyManagingDirector
+- Deputy managing director
 
-ex:FI_PJ a skos:Concept ;
-    skos:prefLabel "Hallituksen puheenjohtaja"@fi ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "FI_PJ" .
+### SE_VVD
+- Vice verkställande direktör (svensk)
 
-ex:NO_LEDE a skos:Concept ;
-    skos:prefLabel "Styrets leder"@no ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "NO_LEDE" .
+### SE_EVVD
+- (Extern) Vice verkställande direktör (svensk)
 
-ex:IS_11 a skos:Concept ;
-    skos:prefLabel "Stjórnarformaður"@is ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "IS_11" .
+### SE_SVD
+- Ställföreträdande verkställande direktör (svensk)
 
-ex:NO_NEST a skos:Concept ;
-    skos:prefLabel "Nestleder"@no ;
-    skos:broader ex:ChairmanOfTheBoard ;
-    skos:notation "NO_NEST" .
+### FI_TJS
+- Toimitusjohtajan sijainen (finsk)
 
-# Deputy member of the board
-ex:SE_SU a skos:Concept ;
-    skos:prefLabel "Styrelsesuppleant"@sv ;
-    skos:broader ex:DeputyMemberOfTheBoard ;
-    skos:notation "SE_SU" .
+---
 
-ex:FI_VJ a skos:Concept ;
-    skos:prefLabel "Hallituksen varajäsen"@fi ;
-    skos:broader ex:DeputyMemberOfTheBoard ;
-    skos:notation "FI_VJ" .
+## ExternalSignatory
+- External Signatory  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:NO_VARA a skos:Concept ;
-    skos:prefLabel "Varamedlem"@no ;
-    skos:broader ex:DeputyMemberOfTheBoard ;
-    skos:notation "NO_VARA" .
+## SoleTrader
+- Owner / Sole trader  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:IS_14 a skos:Concept ;
-    skos:prefLabel "Varamaður"@is ;
-    skos:broader ex:DeputyMemberOfTheBoard ;
-    skos:notation "IS_14" .
+## ProcurationHolder
+- Procuration holder  
+*(nasjonale begreper kan fylles inn her)*
 
-# Board observer
-ex:NO_OBS a skos:Concept ;
-    skos:prefLabel "Observatør"@no ;
-    skos:definition "Natural person who participates in a board meeting in a business, but without voting rights."@en ;
-    skos:broader ex:BoardObserver ;
-    skos:notation "NO_OBS" .
+## Partner
+- Partner  
+*(nasjonale begreper kan fylles inn her)*
 
-# Managing director
-ex:SE_VD a skos:Concept ;
-    skos:prefLabel "Verkställande direktör"@sv ;
-    skos:broader ex:ManagingDirector ;
-    skos:notation "SE_VD" .
+## LimitedPartner
+- Limited partner  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:SE_EVD a skos:Concept ;
-    skos:prefLabel "(Extern) Verkställande direktör"@sv ;
-    skos:broader ex:ManagingDirector ;
-    skos:notation "SE_EVD" .
+## OwnerMunicipality
+- Owner municipality  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:FI_TJ a skos:Concept ;
-    skos:prefLabel "Toimitusjohtaja"@fi ;
-    skos:broader ex:ManagingDirector ;
-    skos:notation "FI_TJ" .
+## ManagingShipowner
+- Managing shipowner  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:NO_DAGL a skos:Concept ;
-    skos:prefLabel "Daglig leder"@no ;
-    skos:broader ex:ManagingDirector ;
-    skos:notation "NO_DAGL" .
+## DesignatedRepresentative
+- Designated Representative  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:IS_4 a skos:Concept ;
-    skos:prefLabel "Framkvæmdarstjóri"@is ;
-    skos:broader ex:ManagingDirector ;
-    skos:notation "IS_4" .
+## GeneralPartner
+- General Partner  
+*(nasjonale begreper kan fylles inn her)*
 
-# Deputy managing director
-ex:SE_VVD a skos:Concept ;
-    skos:prefLabel "Vice verkställande direktör"@sv ;
-    skos:broader ex:DeputyManagingDirector ;
-    skos:notation "SE_VVD" .
+## Liquidator
+- Liquidator  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:SE_EVVD a skos:Concept ;
-    skos:prefLabel "(Extern) Vice verkställande direktör"@sv ;
-    skos:broader ex:DeputyManagingDirector ;
-    skos:notation "SE_EVVD" .
+## DeputyLiquidator
+- Deputy Liquidator  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:SE_SVD a skos:Concept ;
-    skos:prefLabel "Ställföreträdande verkställande direktör"@sv ;
-    skos:broader ex:DeputyManagingDirector ;
-    skos:notation "SE_SVD" .
+## BusinessManager
+- Business Manager  
+*(nasjonale begreper kan fylles inn her)*
 
-ex:FI_TJS a skos:Concept ;
-    skos:prefLabel "Toimitusjohtajan sijainen"@fi ;
-    skos:broader ex:DeputyManagingDirector ;
-    skos:notation "FI_TJS" .
+## ContactPerson
+- Contact person  
+*(nasjonale begreper kan fylles inn her)*
 
-# (Fil fortsetter med alle øvrige roller som External Signatory, Sole Trader, Procuration Holder, Partner, etc.)
+## PersonAuthorizedToReceiveService
+- Person authorised to receive service of process on behalf of the company  
+*(nasjonale begreper kan fylles inn her)*
+
+## Auditor
+- Auditor  
+*(nasjonale begreper kan fylles inn her)*
+
+## DeputyAuditor
+- Deputy Auditor  
+*(nasjonale begreper kan fylles inn her)*
+
+## Accountant
+- Accountant  
+*(nasjonale begreper kan fylles inn her)*
+
+## Actuary
+- Actuary  
+*(nasjonale begreper kan fylles inn her)*
