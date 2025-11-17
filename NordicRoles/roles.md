@@ -34,56 +34,103 @@
 
 ## Member of the Board {#member-of-the-board}
 
-**Roles:**
-- **SE_LE:** Styrelseledamot (Sweden)  
-- **SE_VLE:** Verkställande ledamot (Sweden)  
-- **SE_ARB:** Arbetstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
-- **SE_FTR:** Försäkringstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
-- **FI_J:** Hallituksen jäsen (Finland)  
-- **NO_MEDL:** Styremedlem (Norway)  
-- **IS_12:** Stjórnarmaður (Iceland)  
-- **IS_13:** Meðstjórnandi (Iceland)  
+**Top concept:** Member of the Board  
+
+**National roles:**
+- **[SE_LE](#se_le):** Styrelseledamot (Sweden)  
+- **[SE_VLE](#se_vle):** Verkställande ledamot (Sweden)  
+- **[SE_ARB](#se_arb):** Arbetstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
+- **[SE_FTR](#se_ftr):** Försäkringstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
+- **[FI_J](#fi_j):** Hallituksen jäsen (Finland)  
+- **[NO_MEDL](#no_medl):** Styremedlem (Norway)  
+- **[IS_12](#is_12):** Stjórnarmaður (Iceland)  
+- **[IS_13](#is_13):** Meðstjórnandi (Iceland)  
+
+### Nasjonale begreper med anker
+
+#### SE_LE {#se_le}
+- Styrelseledamot (Sweden)  
+
+#### SE_VLE {#se_vle}
+- Verkställande ledamot (Sweden)  
+
+#### SE_ARB {#se_arb}
+- Arbetstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
+
+#### SE_FTR {#se_ftr}
+- Försäkringstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
+
+#### FI_J {#fi_j}
+- Hallituksen jäsen (Finland)  
+
+#### NO_MEDL {#no_medl}
+- Styremedlem (Norway)  
+
+#### IS_12 {#is_12}
+- Stjórnarmaður (Iceland)  
+
+#### IS_13 {#is_13}
+- Meðstjórnandi (Iceland)  
 
 ---
 
 ## Chairman of the Board {#chairman-of-the-board}
 
-**Roles:**
-- **SE_OF:** Styrelseordförande (Sweden) – Registered as LE in Sweden; signatory rights connected to LE.  
-- **SE_VOF:** Vice styrelseordförande (Sweden) – Deputy Chairman of the board.  
-- **FI_PJ:** Hallituksen puheenjohtaja (Finland)  
-- **NO_LEDE:** Styrets leder (Norway)  
-- **IS_11:** Stjórnarformaður (Iceland)  
-- **NO_NEST:** Nestleder (Norway)  
+**Top concept:** Chairman of the Board  
+
+**National roles:**
+- **[SE_OF](#se_of):** Styrelseordförande (Sweden) – Registered as LE in Sweden; signatory rights connected to LE.  
+- **[SE_VOF](#se_vof):** Vice styrelseordförande (Sweden) – Deputy Chairman of the board.  
+- **[FI_PJ](#fi_pj):** Hallituksen puheenjohtaja (Finland)  
+- **[NO_LEDE](#no_lede):** Styrets leder (Norway)  
+- **[IS_11](#is_11):** Stjórnarformaður (Iceland)  
+- **[NO_NEST](#no_nest):** Nestleder (Norway)  
+
+### Nasjonale begreper med anker
+
+#### SE_OF {#se_of}
+- Styrelseordförande (Sweden) – Registered as LE in Sweden; signatory rights connected to LE.  
+
+#### SE_VOF {#se_vof}
+- Vice styrelseordförande (Sweden) – Deputy Chairman of the board.  
+
+#### FI_PJ {#fi_pj}
+- Hallituksen puheenjohtaja (Finland)  
+
+#### NO_LEDE {#no_lede}
+- Styrets leder (Norway)  
+
+#### IS_11 {#is_11}
+- Stjórnarformaður (Iceland)  
+
+#### NO_NEST {#no_nest}
+- Nestleder (Norway)  
 
 ---
 
 ## Deputy Member of the Board {#deputy-member-of-the-board}
 
-**Roles:**
-- **SE_SU:** Styrelsesuppleant (Sweden)  
-- **FI_VJ:** Hallituksen varajäsen (Finland)  
-- **NO_VARA:** Varamedlem (Norway)  
-- **IS_14:** Varamaður (Iceland)  
+**Top concept:** Deputy Member of the Board  
+
+**National roles:**
+- **[SE_SU](#se_su):** Styrelsesuppleant (Sweden)  
+- **[FI_VJ](#fi_vj):** Hallituksen varajäsen (Finland)  
+- **[NO_VARA](#no_vara):** Varamedlem (Norway)  
+- **[IS_14](#is_14):** Varamaður (Iceland)  
+
+### Nasjonale begreper med anker
+
+#### SE_SU {#se_su}
+- Styrelsesuppleant (Sweden)  
+
+#### FI_VJ {#fi_vj}
+- Hallituksen varajäsen (Finland)  
+
+#### NO_VARA {#no_vara}
+- Varamedlem (Norway)  
+
+#### IS_14 {#is_14}
+- Varamaður (Iceland)  
 
 ---
 
-## Board Observer {#board-observer}
-
-**Roles:**
-- **NO_OBS:** Observatør (Norway) – Natural person who participates in a board meeting without voting rights.  
-
----
-
-## Managing Director {#managing-director}
-
-**Roles:**
-- **SE_VD:** Verkställande direktör (Sweden)  
-- **SE_EVD:** (Extern) Verkställande direktör (Sweden)  
-- **FI_TJ:** Toimitusjohtaja (Finland)  
-- **NO_DAGL:** Daglig leder (Norway)  
-- **IS_4:** Framkvæmdarstjóri (Iceland)  
-
----
-
-<!-- og så videre for alle andre konsepter... -->
