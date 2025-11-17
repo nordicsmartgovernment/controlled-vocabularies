@@ -32,7 +32,8 @@
 
 ---
 
-## Member of the Board {#member-of-the-board}
+<a name="member-of-the-board"></a>
+## Member of the Board
 
 **National roles:**
 - [SE_LE](#se_le) – Styrelseledamot (Sweden)  
@@ -44,33 +45,42 @@
 - [IS_12](#is_12) – Stjórnarmaður (Iceland)  
 - [IS_13](#is_13) – Meðstjórnandi (Iceland)  
 
-#### SE_LE {#se_le}  
+<a name="se_le"></a>
+#### SE_LE
 Styrelseledamot (Sweden)  
 
-#### SE_VLE {#se_vle}  
+<a name="se_vle"></a>
+#### SE_VLE
 Verkställande ledamot (Sweden)  
 
-#### SE_ARB {#se_arb}  
+<a name="se_arb"></a>
+#### SE_ARB
 Arbetstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
 
-#### SE_FTR {#se_ftr}  
+<a name="se_ftr"></a>
+#### SE_FTR
 Försäkringstagarrepresentant (Sweden) – Is in the board with the same rights as other board members.  
 
-#### FI_J {#fi_j}  
+<a name="fi_j"></a>
+#### FI_J
 Hallituksen jäsen (Finland)  
 
-#### NO_MEDL {#no_medl}  
+<a name="no_medl"></a>
+#### NO_MEDL
 Styremedlem (Norway)  
 
-#### IS_12 {#is_12}  
+<a name="is_12"></a>
+#### IS_12
 Stjórnarmaður (Iceland)  
 
-#### IS_13 {#is_13}  
+<a name="is_13"></a>
+#### IS_13
 Meðstjórnandi (Iceland)  
 
 ---
 
-## Chairman of the Board {#chairman-of-the-board}
+<a name="chairman-of-the-board"></a>
+## Chairman of the Board
 
 **National roles:**
 - [SE_OF](#se_of) – Styrelseordförande (Sweden) – Registered as LE in Sweden; signatory rights connected to LE.  
@@ -80,121 +90,28 @@ Meðstjórnandi (Iceland)
 - [IS_11](#is_11) – Stjórnarformaður (Iceland)  
 - [NO_NEST](#no_nest) – Nestleder (Norway)  
 
-#### SE_OF {#se_of}  
+<a name="se_of"></a>
+#### SE_OF
 Styrelseordförande (Sweden) – Registered as LE in Sweden; signatory rights connected to LE.  
 
-#### SE_VOF {#se_vof}  
+<a name="se_vof"></a>
+#### SE_VOF
 Vice styrelseordförande (Sweden) – Deputy Chairman of the board.  
 
-#### FI_PJ {#fi_pj}  
+<a name="fi_pj"></a>
+#### FI_PJ
 Hallituksen puheenjohtaja (Finland)  
 
-#### NO_LEDE {#no_lede}  
+<a name="no_lede"></a>
+#### NO_LEDE
 Styrets leder (Norway)  
 
-#### IS_11 {#is_11}  
+<a name="is_11"></a>
+#### IS_11
 Stjórnarformaður (Iceland)  
 
-#### NO_NEST {#no_nest}  
+<a name="no_nest"></a>
+#### NO_NEST
 Nestleder (Norway)  
 
 ---
-
-## Deputy Member of the Board {#deputy-member-of-the-board}
-
-**National roles:**
-- [SE_SU](#se_su) – Styrelsesuppleant (Sweden)  
-- [FI_VJ](#fi_vj) – Hallituksen varajäsen (Finland)  
-- [NO_VARA](#no_vara) – Varamedlem (Norway)  
-- [IS_14](#is_14) – Varamaður (Iceland)  
-
-#### SE_SU {#se_su}  
-Styrelsesuppleant (Sweden)  
-
-#### FI_VJ {#fi_vj}  
-Hallituksen varajäsen (Finland)  
-
-#### NO_VARA {#no_vara}  
-Varamedlem (Norway)  
-
-#### IS_14 {#is_14}  
-Varamaður (Iceland)  
-
----
-
-## Board Observer {#board-observer}
-
-**National roles:**
-- [NO_OBS](#no_obs) – Observatør (Norway) – Natural person who participates in a board meeting without voting rights.  
-
-#### NO_OBS {#no_obs}  
-Observatør (Norway) – Natural person who participates in a board meeting without voting rights.  
-
----
-
-## Managing Director {#managing-director}
-
-**National roles:**
-- [SE_VD](#se_vd) – Verkställande direktör (Sweden)  
-- [SE_EVD](#se_evd) – (Extern) Verkställande direktör (Sweden)  
-- [FI_TJ](#fi_tj) – Toimitusjohtaja (Finland)  
-- [NO_DAGL](#no_dagl) – Daglig leder (Norway)  
-- [IS_4](#is_4) – Framkvæmdarstjóri (Iceland)  
-
-#### SE_VD {#se_vd}  
-Verkställande direktör (Sweden)  
-
-#### SE_EVD {#se_evd}  
-(Extern) Verkställande direktör (Sweden)  
-
-#### FI_TJ {#fi_tj}  
-Toimitusjohtaja (Finland)  
-
-#### NO_DAGL {#no_dagl}  
-Daglig leder (Norway)  
-
-#### IS_4 {#is_4}  
-Framkvæmdarstjóri (Iceland)  
-
----
-
-## Deputy Managing Director {#deputy-managing-director}
-
-**National roles:**
-- [SE_VVD](#se_vvd) – Vice verkställande direktör (Sweden)  
-- [SE_EVVD](#se_evvd) – (Extern) Vice verkställande direktör (Sweden)  
-- [SE_SVD](#se_svd) – Ställföreträdande verkställande direktör (Sweden)  
-- [FI_TJS](#fi_tjs) – Toimitusjohtajan sijainen (Finland)  
-
-#### SE_VVD {#se_vvd}  
-Vice verkställande direktör (Sweden)  
-
-#### SE_EVVD {#se_evvd}  
-(Extern) Vice verkställande direktör (Sweden)  
-
-#### SE_SVD {#se_svd}  
-Ställföreträdande verkställande direktör (Sweden)  
-
-#### FI_TJS {#fi_tjs}  
-Toimitusjohtajan sijainen (Finland)  
-
----
-
-## External Signatory {#external-signatory}
-
-**National roles:**
-- [SE_EFT](#se_eft) – Extern firmatecknare (Sweden)  
-- [FI_MUU](#fi_muu) – Muu nimetty henkilö (Finland)  
-- [NO_SIGN](#no_sign) – Signaturberettiget (Norway)  
-
-#### SE_EFT {#se_eft}  
-Extern firmatecknare (Sweden)  
-
-#### FI_MUU {#fi_muu}  
-Muu nimetty henkilö (Finland)  
-
-#### NO_SIGN {#no_sign}  
-Signaturberettiget (Norway)  
-
----
-
