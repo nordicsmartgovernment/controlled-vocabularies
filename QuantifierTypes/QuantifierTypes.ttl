@@ -1,6 +1,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
-@prefix ex:   <http://example.com/extent#> .
+@prefix quantifier: <https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#> .
 
 ex:scheme a skos:ConceptScheme ;
     dct:title "Extent Vocabulary" ;
