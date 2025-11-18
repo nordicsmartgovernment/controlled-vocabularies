@@ -5,8 +5,8 @@ This repository contains SKOS-based vocabularies for use in semantic modeling an
 Each vocabulary is published as a Turtle file and can be referenced via dereferenceable URIs.
 
 ### Nordic Roles Vocabulary
-*[Nordic Roles Vocabulary TTL ](./NordicRoles/roles.ttl)
+*[Nordic Roles Vocabulary TTL ](./NordicRoles/NordicRoleVocabulary.ttl)
 
-*[Nordic Roles Vocabulary Markdown ](./NordicRoles/roles.md)
+*[Nordic Roles Vocabulary Markdown ](./NordicRoles/NordicRoles/NordicRoleVocabulary.md)
 
 ### Quantifier Vocabulary
