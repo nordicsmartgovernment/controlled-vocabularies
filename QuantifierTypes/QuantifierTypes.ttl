@@ -1,1 +1,25 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix ex:   <http://example.com/extent#> .
 
+ex:scheme a skos:ConceptScheme ;
+    dct:title "Extent Vocabulary" ;
+    dct:description "A vocabulary describing extent categories (all, majority, alone)." .
+
+ex:all a skos:Concept ;
+    skos:inScheme ex:scheme ;
+    skos:prefLabel "All of"@en ;
+    skos:notation "all" ;
+    skos:definition "Applies to the entire set or group."@en .
+
+ex:majority a skos:Concept ;
+    skos:inScheme ex:scheme ;
+    skos:prefLabel "Majority of"@en ;
+    skos:notation "majority" ;
+    skos:definition "Applies to more than half of the set or group."@en .
+
+ex:alone a skos:Concept ;
+    skos:inScheme ex:scheme ;
+    skos:prefLabel "Alone"@en ;
+    skos:notation "alone" ;
+    skos:definition "Applies to a single entity acting or standing by itself."@en .
