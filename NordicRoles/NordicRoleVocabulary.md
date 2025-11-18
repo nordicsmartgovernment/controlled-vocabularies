@@ -1,7 +1,7 @@
 # Nordic Role Vocabulary (Test Version)
 
 **Title:** Nordic Role Vocabulary  
-**Description:** Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland.  
+**Description:** Test version of the Nordic role vocabulary based on legal entity related roles across Sweden, Norway, Finland, and Iceland.  
 **Note:** This is a test version and may change.  
 
 ## Top Concepts
