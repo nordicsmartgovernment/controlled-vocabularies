@@ -1,27 +1,27 @@
 # Extent Vocabulary
 
+**Namespace:** `https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#`  
+**URI:** `quantifier:scheme`  
 **Tittel:** Extent Vocabulary  
-**Beskrivelse:** Et vokabular som beskriver kategorier for omfang (alle, flertall, alene).  
-**URI:** `ex:scheme`
+**Beskrivelse:** A vocabulary describing extent categories (all, majority, alone).
 
 ---
 
 # All of
-**URI:** `ex:all`  
+**Full URI:** `https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#all`  
 **Notation:** `all`  
-**Definisjon:** Gjelder for hele settet eller gruppen.
+**Definisjon:** Applies to the entire set or group.
 
 ---
 
 # Majority of
-**URI:** `ex:majority`  
+**Full URI:** `https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#majority`  
 **Notation:** `majority`  
-**Definisjon:** Gjelder for mer enn halvparten av settet eller gruppen.
+**Definisjon:** Applies to more than half of the set or group.
 
 ---
 
 # Alone
-**URI:** `ex:alone`  
+**Full URI:** `https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#alone`  
 **Notation:** `alone`  
-**Definisjon:** Gjelder én enkelt enhet som handler eller står for seg selv.
-
+**Definisjon:** Applies to a single entity acting or standing by itself.
