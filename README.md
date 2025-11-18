@@ -7,7 +7,7 @@ Each vocabulary is published as a Turtle file and can be referenced via derefere
 ### Nordic Roles Vocabulary
 *[Nordic Roles Vocabulary TTL ](./NordicRoles/NordicRoleVocabulary.ttl)
 
-*[Nordic Roles Vocabulary Markdown ](./NordicRoles/NordicRoles/NordicRoleVocabulary.md)
+*[Nordic Roles Vocabulary Markdown ](./NordicRoles/NordicRoleVocabulary.md)
 
 ### Quantifier Vocabulary
 *[Quantifier Types TTL ](./QuantifierTypes/QuantifierTypes.ttl)
