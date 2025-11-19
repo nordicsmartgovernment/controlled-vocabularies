@@ -3,7 +3,7 @@
 @prefix quantifier: <https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#> .
 
 quantifier:scheme a skos:ConceptScheme ;
-    dct:title "Extent Vocabulary" ;
+    dct:title "Quantifier Types" ;
     dct:description "A vocabulary describing extent categories (all, majority, alone)." .
 
 quantifier:all a skos:Concept ;
