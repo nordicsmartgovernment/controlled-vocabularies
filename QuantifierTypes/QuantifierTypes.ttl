@@ -22,4 +22,4 @@ quantifier:alone a skos:Concept ;
     skos:inScheme quantifier:scheme ;
     skos:prefLabel "Alone"@en ;
     skos:notation "alone" ;
-    skos:definition "Applies to a single entity acting or standing by itself."@en .
+    skos:definition "Applies to a single individual or entity acting or standing by itself."@en .
