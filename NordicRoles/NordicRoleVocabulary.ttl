@@ -1,12 +1,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix nsgrole: <https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/NordicRoles/NordicRoleVocabulary.ttl> .
+@prefix nsgrole: <https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/NordicRoles/NordicRoleVocabulary.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
 nsgrole:NordicRoles a skos:ConceptScheme ;
     dct:title "Nordic Role Vocabulary"@en ;
     dct:description "Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland."@en ;
-    skos:prefLabel "Nordic Roles (Test Version)"@en ;
-    skos:note "This is a test version and may change."@en ;
+    skos:prefLabel "Nordic Role Vocabulary (Test Version)"@en ;
+   
     skos:hasTopConcept 
         nsgrole:MemberOfTheBoard,
         nsgrole:ChairmanOfTheBoard,
