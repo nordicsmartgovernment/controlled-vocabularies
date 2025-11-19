@@ -4,8 +4,8 @@
 **Prefiks:** `quantifier`  
 
 **URI:** `quantifier:scheme`  
-**Tittel:** Extent Vocabulary  
-**Beskrivelse:** A vocabulary describing extent categories (all, majority, alone).
+**Title:** Quantifier Types (Test version)"  
+**Description:** A vocabulary describing extent categories (all, majority, alone).
 
 ---
 
@@ -19,11 +19,11 @@
 # Majority of
 **URI:** `quantifier:majority`  
 **Notation:** `majority`  
-**Definisjon:** Applies to more than half of the set or group.
+**Definition:** Applies to more than half of the set or group.
 
 ---
 
 # Alone
 **URI:** `quantifier:alone`  
 **Notation:** `alone`  
-**Definisjon:** Applies to a single entity acting or standing by itself.
+**Definition:** Applies to a single entity acting or standing by itself.
