@@ -26,4 +26,4 @@
 # Alone
 **URI:** `quantifier:alone`  
 **Notation:** `alone`  
-**Definition:** Applies to a single entity acting or standing by itself.
+**Definition:** Applies to a individual or single entity acting or standing by itself.
