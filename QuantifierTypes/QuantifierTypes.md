@@ -1,4 +1,4 @@
-# Extent Vocabulary
+# Quantifier Types
 
 **Namespace (base URI):** `https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/QuantifierTypes/QuantifierTypes.ttl#`  
 **Prefiks:** `quantifier`  
