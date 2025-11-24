@@ -37,7 +37,7 @@ nsgrole:NordicRoleVocabulary a skos:ConceptScheme ;
 # High level english concepts
 ##########################
 
-nsgrole:MemberOfTheBoard a skos:Concept 
+nsgrole:MemberOfTheBoard a skos:Concept ;
     skos:prefLabel "Member of the board"@en .
     
 nsgrole:ChairmanOfTheBoard a skos:Concept ;
