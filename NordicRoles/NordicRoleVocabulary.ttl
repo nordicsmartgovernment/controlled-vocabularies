@@ -176,7 +176,7 @@ nsgrole:FI_PJ a skos:Concept ;
     skos:prefLabel "Hallituksen puheenjohtaja"@fi .
 
 nsgrole:NO_LEDE a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfTheBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard , nsgrole:NO_MEDL ;
     skos:notation "NO_LEDE" ;
     skos:prefLabel "Styrets leder"@no .
 
@@ -186,7 +186,7 @@ nsgrole:IS_11 a skos:Concept ;
     skos:prefLabel "Stjórnarformaður"@is .
 
 nsgrole:NO_NEST a skos:Concept ;
-    skos:broader nsgrole:ChairmanOfTheBoard ;
+    skos:broader nsgrole:ChairmanOfTheBoard , nsgrole:NO_MEDL ;
     skos:notation "NO_NEST" ;
     skos:prefLabel "Nestleder"@no .
 
