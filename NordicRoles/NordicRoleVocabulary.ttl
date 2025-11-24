@@ -162,8 +162,7 @@ nsgrole:IS_13 a skos:Concept ;
 nsgrole:SE_OF a skos:Concept ;
     skos:broader nsgrole:ChairmanOfTheBoard ;
     skos:notation "SE_OF" ;
-    skos:prefLabel "Styrelseordförande"@sv ;
-    skos:definition "This person is always registered in Sweden as LE, OF and signatory rights always connected to LE."@en .
+    skos:prefLabel "Styrelseordförande"@sv .
 
 nsgrole:SE_VOF a skos:Concept ;
     skos:broader nsgrole:ChairmanOfTheBoard ;
@@ -222,8 +221,7 @@ nsgrole:IS_14 a skos:Concept ;
 nsgrole:NO_OBS a skos:Concept ;
     skos:broader nsgrole:BoardObserver ;
     skos:notation "NO_OBS" ;
-    skos:prefLabel "Observatør"@no ;
-    skos:definition "Natural person who participates in a board meeting without voting rights."@en .
+    skos:prefLabel "Observatør"@no .
 
 #################################################################
 # Managing director
@@ -353,7 +351,7 @@ nsgrole:SE_BO a skos:Concept ;
     skos:broader nsgrole:Partner ;
     skos:notation "SE_BO" ;
     skos:prefLabel "Bolagsman"@sv ;
-    skos:definition "Used only for Handelsbolag and Kommanditbolag."@en .
+    skos:scopeNote "Used only for Handelsbolag and Kommanditbolag."@en .
 
 nsgrole:FI_YHM a skos:Concept ;
     skos:broader nsgrole:Partner ;
@@ -363,14 +361,12 @@ nsgrole:FI_YHM a skos:Concept ;
 nsgrole:NO_DTSO a skos:Concept ;
     skos:broader nsgrole:Partner ;
     skos:notation "NO_DTSO" ;
-    skos:prefLabel "Deltaker med solidarisk ansvar"@no ;
-    skos:definition "Unlimited liability in Ansvarlig selskap / partsrederi."@en .
+    skos:prefLabel "Deltaker med solidarisk ansvar"@no .
 
 nsgrole:NO_DTPR a skos:Concept ;
     skos:broader nsgrole:Partner ;
     skos:notation "NO_DTPR" ;
-    skos:prefLabel "Deltaker med proratarisk ansvar"@no ;
-    skos:definition "Pro rata liability in selskap med delt ansvar."@en .
+    skos:prefLabel "Deltaker med proratarisk ansvar"@no .
 
 #################################################################
 # Limited partner
@@ -417,8 +413,7 @@ nsgrole:SE_FO a skos:Concept ;
 nsgrole:NO_REPR a skos:Concept ;
     skos:broader nsgrole:DesignatedRepresentative ;
     skos:notation "NO_REPR" ;
-    skos:prefLabel "Norsk representant for utenlandsk enhet"@no ;
-    skos:definition "Required for foreign companies doing business in Norway."@en .
+    skos:prefLabel "Norsk representant for utenlandsk enhet"@no .
 
 #################################################################
 # General partner
@@ -447,7 +442,7 @@ nsgrole:SE_LI a skos:Concept ;
     skos:broader nsgrole:Liquidator ;
     skos:notation "SE_LI" ;
     skos:prefLabel "Likvidator"@sv ;
-    skos:definition "Has signatory power when the company is in liquidation."@en .
+    skos:note "Has signatory power when the company is in liquidation."@en .
 
 nsgrole:FI_SEL a skos:Concept ;
     skos:broader nsgrole:Liquidator ;
@@ -490,7 +485,7 @@ nsgrole:SE_REP a skos:Concept ;
     skos:broader nsgrole:ContactPerson ;
     skos:notation "SE_REP" ;
     skos:prefLabel "Representant"@sv ;
-    skos:definition "Used for religious communities to register a representative."@en .
+    skos:scopeNote "Used for religious communities to register a representative."@en .
 
 #################################################################
 # Service of process
@@ -528,8 +523,7 @@ nsgrole:SE_REVT a skos:Concept ;
 nsgrole:SE_REVL a skos:Concept ;
     skos:broader nsgrole:Auditor ;
     skos:notation "SE_REVL" ;
-    skos:prefLabel "Lekmannarevisor"@sv ;
-    skos:definition "Layman auditor; could be under group 'auditor'."@en .
+    skos:prefLabel "Lekmannarevisor"@sv .
 
 nsgrole:IS_AUD a skos:Concept ;
     skos:broader nsgrole:Auditor ;
