@@ -142,6 +142,7 @@ nsgrole:FI_J a skos:Concept ;
 
 nsgrole:NO_MEDL a skos:Concept ;
     skos:broader nsgrole:MemberOfTheBoard ;
+    dct:subject  <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/f4dd05d5-1349-447a-a1cb-a182ca20854d> ;    
     skos:notation "NO_MEDL" ;
     skos:prefLabel "Styremedlem"@no .
 
@@ -177,6 +178,7 @@ nsgrole:FI_PJ a skos:Concept ;
 
 nsgrole:NO_LEDE a skos:Concept ;
     skos:broader nsgrole:ChairmanOfTheBoard , nsgrole:NO_MEDL ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/0a3c2c6f-ef2d-4a38-a6e4-b8df0b6d9611> ;
     skos:notation "NO_LEDE" ;
     skos:prefLabel "Styrets leder"@no .
 
@@ -187,6 +189,7 @@ nsgrole:IS_11 a skos:Concept ;
 
 nsgrole:NO_NEST a skos:Concept ;
     skos:broader nsgrole:ChairmanOfTheBoard , nsgrole:NO_MEDL ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/53125ffd-f655-460b-9d32-e231eb561699> ;
     skos:notation "NO_NEST" ;
     skos:prefLabel "Nestleder"@no .
 
@@ -206,6 +209,7 @@ nsgrole:FI_VJ a skos:Concept ;
 
 nsgrole:NO_VARA a skos:Concept ;
     skos:broader nsgrole:DeputyMemberOfTheBoard ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/fbbff9e0-ae56-402a-b521-ca9fdf5e6f78> ;
     skos:notation "NO_VARA" ;
     skos:prefLabel "Varamedlem"@no .
 
@@ -220,6 +224,7 @@ nsgrole:IS_14 a skos:Concept ;
 
 nsgrole:NO_OBS a skos:Concept ;
     skos:broader nsgrole:BoardObserver ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/38dfe76b-ae35-4290-ad80-ab08c963d148> ;
     skos:notation "NO_OBS" ;
     skos:prefLabel "Observatør"@no .
 
@@ -244,6 +249,7 @@ nsgrole:FI_TJ a skos:Concept ;
 
 nsgrole:NO_DAGL a skos:Concept ;
     skos:broader nsgrole:ManagingDirector ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/ab1e6794-70f2-497a-9ceb-201357d9af8d> ;
     skos:notation "NO_DAGL" ;
     skos:prefLabel "Daglig leder"@no .
 
@@ -291,6 +297,7 @@ nsgrole:FI_MUU a skos:Concept ;
 
 nsgrole:NO_SIGN a skos:Concept ;
     skos:broader nsgrole:ExternalSignatory ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/db66bfda-2df9-4747-8ed1-35530c5a876f> ;
     skos:notation "NO_SIGN" ;
     skos:prefLabel "Signaturberettiget"@no .
 
@@ -310,6 +317,7 @@ nsgrole:FI_YEH a skos:Concept ;
 
 nsgrole:NO_INNH a skos:Concept ;
     skos:broader nsgrole:SoleTrader ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/8476af98-425d-495f-8846-bf9040fe6898> ;
     skos:notation "NO_INNH" ;
     skos:prefLabel "Innehaver"@no .
 
@@ -340,6 +348,7 @@ nsgrole:IS_5 a skos:Concept ;
 
 nsgrole:NO_PROK a skos:Concept ;
     skos:broader nsgrole:ProcurationHolder ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/4d7bd307-1224-41e6-ba89-82dd85e69ea9> ;
     skos:notation "NO_PROK" ;
     skos:prefLabel "Prokurist"@no .
 
@@ -360,11 +369,13 @@ nsgrole:FI_YHM a skos:Concept ;
 
 nsgrole:NO_DTSO a skos:Concept ;
     skos:broader nsgrole:Partner ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/5afb9565-068a-4c38-b739-076a9f032cdc> ;
     skos:notation "NO_DTSO" ;
     skos:prefLabel "Deltaker med solidarisk ansvar"@no .
 
 nsgrole:NO_DTPR a skos:Concept ;
     skos:broader nsgrole:Partner ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/fe2d9d1d-e377-4008-a416-59c078b61daf> ;
     skos:notation "NO_DTPR" ;
     skos:prefLabel "Deltaker med proratarisk ansvar"@no .
 
@@ -397,6 +408,7 @@ nsgrole:NO_EIKM a skos:Concept ;
 
 nsgrole:NO_BEST a skos:Concept ;
     skos:broader nsgrole:ManagingShipowner ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/5c7cbc62-01a4-47a1-a526-4961ab4414ae> ;
     skos:notation "NO_BEST" ;
     skos:prefLabel "Bestyrende reder"@no .
 
@@ -431,6 +443,7 @@ nsgrole:FI_VYHM a skos:Concept ;
 
 nsgrole:NO_KOMP a skos:Concept ;
     skos:broader nsgrole:GeneralPartner ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/67c21355-c312-4af6-8b32-992a3b7c1f9a> ;
     skos:notation "NO_KOMP" ;
     skos:prefLabel "Komplementar"@no .
 
@@ -451,6 +464,7 @@ nsgrole:FI_SEL a skos:Concept ;
 
 nsgrole:NO_BOBE a skos:Concept ;
     skos:broader nsgrole:Liquidator ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/67c21355-c312-4af6-8b32-992a3b7c1f9a> ;
     skos:notation "NO_BOBE" ;
     skos:prefLabel "Bostyrer"@no .
 
@@ -469,6 +483,7 @@ nsgrole:SE_LS a skos:Concept ;
 
 nsgrole:NO_FFOER a skos:Concept ;
     skos:broader nsgrole:BusinessManager ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/8ec9ea98-6581-4934-9bcf-b1c4f87e3560> ;
     skos:notation "NO_FFOER" ;
     skos:prefLabel "Forretningsfører"@no .
 
@@ -478,6 +493,7 @@ nsgrole:NO_FFOER a skos:Concept ;
 
 nsgrole:NO_KONT a skos:Concept ;
     skos:broader nsgrole:ContactPerson ;
+    dct:subject <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/de386aeb-ea96-4be6-a99c-f16b5a7583c0> ;
     skos:notation "NO_KONT" ;
     skos:prefLabel "Kontaktperson"@no .
 
@@ -502,6 +518,7 @@ nsgrole:SE_DELG a skos:Concept ;
 
 nsgrole:NO_REVI a skos:Concept ;
     skos:broader nsgrole:Auditor ;
+    dct:subjecy <https://concept-catalog.fellesdatakatalog.digdir.no/collections/974760673/concepts/104dff66-23f1-467e-81d3-4690a795ac54> ;
     skos:notation "NO_REVI" ;
     skos:prefLabel "Revisor"@no .
 
@@ -569,6 +586,7 @@ nsgrole:FI_VT a skos:Concept ;
 
 nsgrole:NO_REGN a skos:Concept ;
     skos:broader nsgrole:Accountant ;
+    dct:subject <https://data.norge.no/concepts/32177f30-1397-492a-8821-dea48f01633a> ;
     skos:notation "NO_REGN" ;
     skos:prefLabel "Regnskapsfører"@no .
 
