@@ -34,12 +34,12 @@ nsgrole:NordicRoleVocabulary a skos:ConceptScheme ;
 
 
 ##########################
-# Overordnede engelske begreper
+# High level english concepts
 ##########################
 
-nsgrole:MemberOfTheBoard a skos:Concept ;
+nsgrole:MemberOfTheBoard a skos:Concept 
     skos:prefLabel "Member of the board"@en .
-
+    
 nsgrole:ChairmanOfTheBoard a skos:Concept ;
     skos:prefLabel "Chairman of the board"@en .
 
