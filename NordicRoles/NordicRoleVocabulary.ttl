@@ -2,7 +2,7 @@
 @prefix nsgrole: <https://raw.githubusercontent.com/nordicsmartgovernment/controlled-vocabularies/refs/heads/main/NordicRoles/NordicRoleVocabulary.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-nsgrole:NordicRoles a skos:ConceptScheme ;
+nsgrole:NordicRoleVocabulary a skos:ConceptScheme ;
     dct:title "Nordic Role Vocabulary"@en ;
     dct:description "Test version of the Nordic role vocabulary based on board- and company-related roles across Sweden, Norway, Finland, and Iceland."@en ;
     skos:prefLabel "Nordic Role Vocabulary (Test Version)"@en ;
